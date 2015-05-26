@@ -1,6 +1,10 @@
 # Introduction
 FDAlertView is a alert view which can modify the text color and font size of it's content automaticlly, also it allows to define the content view by yourself. Otherwise, it support to add logo into alert view.
 
+# ScreenShot
+
+(http://pan.baidu.com/s/1gdD3HmV) (http://pan.baidu.com/s/1i3eTF6l) (http://pan.baidu.com/s/10gCKu)
+
 # Get started
 
 1. Download the FDAlertView.h and FDAlertView.m source and add to your project.
