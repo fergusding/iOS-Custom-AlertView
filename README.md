@@ -1,11 +1,12 @@
 ### Introduction
-FDAlertView is a alert view which can modify the text color and font size of it's content automaticlly, also it allows to define the content view by yourself. Otherwise, it support to add logo into alert view.
+    FDAlertView is a alert view which can modify the text color and font size of it's content automaticlly, also it allows to define the content view by yourself. Otherwise, it support to add logo into alert view.
 
 ### Get started
 	
 
 ### Usage
-1. Normal AlertView
+
+## Normal AlertView
 
 ```Objective-C
     FDAlertView *alert = [[FDAlertView alloc] initWithTitle:@"退出登录" icon:nil message:@"确定退出登录吗？" delegate:self buttonTitles:@"确定", @"取消", nil];
@@ -13,14 +14,14 @@ FDAlertView is a alert view which can modify the text color and font size of it'
     [alert show];
 ```
 
-2. Icon AlertView
+## Icon AlertView
 
 ```Objective-C
 	FDAlertView *alert = [[FDAlertView alloc] initWithTitle:@"退出登录" icon:[UIImage imageNamed:@"exclamation-icon"] message:@"你确定退出登录吗？" delegate:self buttonTitles:@"确定", @"取消", nil];
     [alert show];
 ```
 
-3. Define content AlertView
+## Define content AlertView
 
 ```Objective-C
 	FDAlertView *alert = [[FDAlertView alloc] init];
