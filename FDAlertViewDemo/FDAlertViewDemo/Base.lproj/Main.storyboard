@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHR-hW-47a">
+                                <rect key="frame" x="108" y="132" width="105" height="30"/>
+                                <state key="normal" title="一般的信息弹窗">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showNormalAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ssR-w3-bJd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5IA-i4-WjX">
+                                <rect key="frame" x="100" y="182" width="120" height="30"/>
+                                <state key="normal" title="带图标的信息弹窗">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showIconAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eor-Au-UVU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KA5-dQ-xPB">
+                                <rect key="frame" x="93" y="232" width="135" height="30"/>
+                                <state key="normal" title="可自定义内容的弹窗">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showContentAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jbz-El-2J7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5IA-i4-WjX" firstAttribute="centerX" secondItem="KA5-dQ-xPB" secondAttribute="centerX" id="1QZ-5J-uEe"/>
+                            <constraint firstAttribute="centerX" secondItem="GHR-hW-47a" secondAttribute="centerX" id="4Su-wA-bww"/>
+                            <constraint firstItem="5IA-i4-WjX" firstAttribute="top" secondItem="GHR-hW-47a" secondAttribute="bottom" constant="20" id="Adi-Is-Pfl"/>
+                            <constraint firstItem="KA5-dQ-xPB" firstAttribute="top" secondItem="5IA-i4-WjX" secondAttribute="bottom" constant="20" id="DvM-fk-c6Y"/>
+                            <constraint firstItem="GHR-hW-47a" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="112" id="lv6-Aj-VJT"/>
+                            <constraint firstItem="GHR-hW-47a" firstAttribute="centerX" secondItem="5IA-i4-WjX" secondAttribute="centerX" constant="0.5" id="qwE-Vl-Tv9"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="309"/>
+        </scene>
+    </scenes>
+</document>
