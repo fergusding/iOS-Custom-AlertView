@@ -33,3 +33,6 @@ FDAlertView is a alert view which can modify the text color and font size of it'
     alert.contentView = contentView;
     [alert show];
 ```
+
+# License
+     MIT
