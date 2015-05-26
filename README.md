@@ -21,6 +21,7 @@ FDAlertView is a alert view which can modify the text color and font size of it'
 ```
 
 3. Define content AlertView
+
 ```Objective-C
 	FDAlertView *alert = [[FDAlertView alloc] init];
     ContentView *contentView = "YOUR DEFINE VIEW";
