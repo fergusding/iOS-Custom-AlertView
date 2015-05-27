@@ -11,7 +11,7 @@ FDAlertView is a alert view which can modify the text color and font size of it'
 
 1. Download the FDAlertView.h and FDAlertView.m source and add to your project.
 2. Import FDAlertView.h file.
-3. You can use it no in your project.
+3. You can use it now in your project.
 
 # Usage
 
