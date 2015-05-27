@@ -3,7 +3,9 @@ FDAlertView is a alert view which can modify the text color and font size of it'
 
 # ScreenShot
 
-(http://7xiamc.com1.z0.glb.clouddn.com/屏幕快照 2015-05-26 下午6.17.18.png) (http://7xiamc.com1.z0.glb.clouddn.com/屏幕快照 2015-05-26 下午6.17.00.png) (http://7xiamc.com1.z0.glb.clouddn.com/屏幕快照 2015-05-26 下午6.16.37.png)
+ (http://7xiamc.com1.z0.glb.clouddn.com/normal-alertview.png)
+ (http://7xiamc.com1.z0.glb.clouddn.com/icon-alertview.png) 
+ (http://7xiamc.com1.z0.glb.clouddn.com/define-alertview.png)
 
 # Get started
 
